@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-f6e19053d3e85a89f96b24cfb87e6aad59407af2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-97acabaf85f59c399c0db0e9fcf13acd367fdef6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\library-2.4.0-dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\gson-2.3.1-3d67bc6296728dce11d45e3fe02a4d0f0bf336e9.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\libs\crittercism_v3_0_3_sdkonly.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="17fd8b2c455671bb79b043fe79fa82846881809f">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\crittercism_v3_0_3_sdkonly-5a4c2b82092875cb6f05eb832a0adfb5f9d9a273.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5-397e682f81a90ee78c74b4633dae79a7450f65cd.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-28672817381ce0e21e1d58cb5129b717a527ebaf.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.baoyz.actionsheet\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea9fdee92142105722d55f08b02e581bdf91d435">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-1bf34a89bc089503179106ae3b020066e4d9f83a.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\libs\AMap_2DMap_V2.8.1_20160202.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0109d970ab16fff07a9a2f22149aecdc1195a4c2">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\AMap_2DMap_V2.8.1_20160202-5c20511507fbb8b57615db4ef0b1b98dca377909.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-63244087b316fa122130ebaaf23366be5a5191c2.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-e06f3dbfd71ccfeb3dab2d6ead184505f18c43ff.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-505c224567ec72114a81d0ab58c9c5fb7274224e.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.wang.avi\library\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c8bb52b30819d4a0a9c114e6ada59924f056db27">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-93c61ccffa3f21591b348ab487b0464ce3c303d8.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\libs\AMap_Search_V3.2.1_20160308.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2ca076e4192ab39f1fae2e265b15e6005a5615d">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\AMap_Search_V3.2.1_20160308-5dc1d657aef09c2573a4fc879ceb3ed12f5b6ad7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\guava-18.0-2278082f4a55f060d3810693875cc9a317826ff9.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.bigkoo\alertview\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0f90a2a51eda3f06792b9bae9de735c0a9102d0e">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-ee1b241fe853979f12bb6eeadf676d80d5b3c744.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-4366348d05e9b6e1c9d601578acceba298e3dce9.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e79701ed34126d644387847d96e96e66b34e18b7">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-3ed12bb01ba57159adcaeb0fd3d2e59b17b22b2f.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.bigkoo\convenientbanner\2.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b99798f653c15a17af6779bb9f01a66f2ee6e6ef">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-5cd3cb744846234ae7ae772ed73ba9ab5cc992ec.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.github.tianzhijiexian\EasyDialog\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="24dc5f48ac659726cb30c0d9cf4c9d2a9f8301c4">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-68a3a2f12f0de82692e2373559f05313ba6cb0e0.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-7668d9b474fe57946392df83ca985a9523fe104a.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\cn.finalteam\galleryfinal\1.4.8.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c74f0952cfb481882d8cedf4ca9f3c60289a3301">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-d04117b690ede8e6d978671d302efa742d0e74f7.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\libs\AMap_Location_V2.4.0_20160308.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd8aedb3d0d87b92777ab997ec883427d88f379a">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\AMap_Location_V2.4.0_20160308-51adce937e2e05c9cb4b8f4da0d4a1086eebdfa7.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-a56be722306b5f560a4a3bed0cc11c741d99d6c6.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\cn.finalteam\toolsfinal\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966da5b6a8bfdef0bfc660e349f8765dde5cb6f3">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-d95c9aff58a37450f28043e116950e9e4163d7e6.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\jp.wasabeef\richeditor-android\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92aa852032e97ccf6eb2a80151205ab578a7916f">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-7c795b8b3ad4df4a2d302712be9809ca35b40f0e.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\LionTest1.libraries\SlidingMenu-master@library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="814577b48246951dedd47730ffa1f271bb7ae015">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-f6e1c94e1bfce37c991cf453b442fc90c03874c1.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-0a0bc0563c38d60c99cf05fac2d9e4ebafb1f8a4.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\build\intermediates\exploded-aar\com.ToxicBakery.viewpager.transforms\view-pager-transforms\1.2.32\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\classes-e3db58a40ca3bbe4582d481a99f85699a841aded.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\libraries\Volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\Volley-8450b384d8e9036512677cc1281d6dccde3d9785.jar" />
+    </item>
+    <item
+        jar="D:\as_projects\LionTest1\app\libs\android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="D:\as_projects\LionTest1\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.8-99daf2a72e195052c34fe48c3f94e95b7fa77d00.jar" />
+    </item>
+
+</items>

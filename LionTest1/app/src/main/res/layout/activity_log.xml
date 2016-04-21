@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/log_backgroud"
+    tools:context=".LogUI"
+    >
+
+    <LinearLayout
+        android:id="@+id/uname_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/uname_layout"
+        android:background="@drawable/shape"
+        >
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@mipmap/uname"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/uname_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输入用户名/手机号"
+            android:textColorHint="#cfd0d1"
+            android:layout_weight="1"
+            android:textSize="13sp"
+            android:textColor="#cfd0d1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pawd_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_below="@id/uname_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        >
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@mipmap/pawd_icon"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/pawd_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:textSize="13sp"
+            android:textColorHint="#cfd0d1"
+            android:layout_weight="1"
+            android:password="true"
+            android:textColor="#cfd0d1"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/log_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_below="@+id/pawd_layout"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/log_btn"
+        android:text="登录"
+        android:textColor="#f3f4f6"
+        android:textSize="20sp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/else_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/log_btn"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/forget_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:textSize="15sp"
+            android:textColor="#f3f4f6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/reg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击注册"
+            android:textColor="#f3f4f6"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"/>
+            </RelativeLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avloadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:indicator="BallClipRotatePulse"
+        android:layout_centerInParent="true"
+
+        app:indicator_color="#ffffff"
+
+        />
+
+</RelativeLayout>

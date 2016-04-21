@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/reg_actionbar"
+        layout="@layout/include_actionbar"
+        ></include>
+
+    <RelativeLayout
+        android:id="@+id/img_layout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/reg_actionbar"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/tuo_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/tuo_yuan"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/dui_gou"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="恭喜你！成功注册"
+        android:layout_below="@id/img_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/go_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入资料填写界面"
+        android:textColor="@color/log_btn_text_white"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/log_btn"/>
+
+</RelativeLayout>

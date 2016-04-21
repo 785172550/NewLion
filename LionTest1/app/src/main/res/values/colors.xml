@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<color name="transparent">#00000000</color>
+	<color name="white">#ffffffff</color>
+	<color name="base_color_text_white">#ffffffff</color>
+	<color name="log_btn_text_white">#f3f4f6</color>
+	<color name="header_blue">#0c9fe3</color>
+    <color name="colorPrimary">#009fe3</color>
+
+	<color name="darkgrey"> #999999</color>
+	<color name="gary">#898989</color>
+</resources>

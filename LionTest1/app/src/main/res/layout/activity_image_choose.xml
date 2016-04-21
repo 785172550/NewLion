@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+	<include
+		android:id="@+id/common_actionbar"
+		layout="@layout/include_actionbar"/>
+
+	<cn.finalteam.galleryfinal.widget.HorizontalListView
+		android:id="@+id/lv_photo"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:cacheColorHint="@android:color/transparent"
+		android:clipToPadding="false"
+		android:fadingEdge="none"
+		android:horizontalSpacing="2dp"
+		android:numColumns="3"
+		android:layout_margin="20dp"
+		android:verticalSpacing="2dp"
+		/>
+
+	<Button
+		android:id="@+id/open_gall"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="45dp"
+		android:layout_marginRight="45dp"
+		android:layout_below="@+id/lv_photo"
+		android:layout_centerHorizontal="true"
+		android:background="@mipmap/log_btn"
+		android:text="打开相册"
+		android:textColor="#f3f4f6"
+		android:textSize="20sp"
+		/>
+</LinearLayout>

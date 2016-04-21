@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/include_actionbar"/>
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_below="@+id/pawd_layout"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/log_btn"
+        android:text="退出登录"
+        android:textColor="#f3f4f6"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

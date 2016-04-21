@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="60dp"
+			  android:textColor="#cfd0d1"
+			  android:textColorHint="#cfd0d1"
+			  >
+	<EditText
+		android:background="@drawable/shape"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:paddingLeft="8dp"
+		android:privateImeOptions="8dp"
+		android:id="@+id/etName"
+		android:hint="请输入"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+</RelativeLayout>

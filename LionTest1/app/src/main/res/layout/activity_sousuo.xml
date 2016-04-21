@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:id="@+id/header_root_layout"
+		style="@style/ActionBar"
+		android:baselineAligned="false"
+		android:background="#009fe3"
+		android:focusable="true" >
+
+		<ImageButton
+			android:id="@+id/header_ib_imagebutton"
+			android:layout_width="15dp"
+			android:layout_height="15dp"
+			android:background="#00000000"
+			android:clickable="false"
+			android:focusable="false"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="15dp"
+			android:singleLine="true"
+			android:inputType="text"
+			android:src="@drawable/base_action_bar_back_bg_selector"
+			android:contentDescription="@string/app_name"
+			android:scaleType="centerInside" />
+
+		<!-- 输入框-->
+
+		<EditText
+			android:id="@+id/search_qiye_et"
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:layout_centerVertical="true"
+			android:paddingLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginLeft="20dp"
+			android:textSize="17sp"
+			android:textColor="@color/white"
+			android:hint="请输入您想搜索的内容"
+			android:imeOptions="actionSearch"
+			android:layout_toRightOf="@+id/header_ib_imagebutton"
+			android:background="@drawable/shape"/>
+
+	</RelativeLayout>
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="fill_parent"
+        android:visibility="invisible"
+        android:layout_below="@+id/header_root_layout"
+        android:layout_height="fill_parent">
+
+    </ListView>
+
+	<RelativeLayout
+        android:id="@+id/suggest_layout"
+		android:layout_width="fill_parent"
+		android:layout_below="@id/header_root_layout"
+		android:layout_height="fill_parent">
+		<TextView
+			android:id="@+id/sousuo_tv1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp"
+			android:textSize="20dp"
+			android:text="热门行业"/>
+
+		<GridView
+			android:layout_below="@id/sousuo_tv1"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:id="@+id/grid1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:numColumns="4"
+			android:columnWidth="90dp"
+			android:verticalSpacing="10dp"
+			android:horizontalSpacing="1dp"
+			android:listSelector="@color/transparent"
+			><!--垂直边距--><!--水平边距-->
+		</GridView>
+
+		<TextView
+			android:id="@+id/sousuo_tv2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/grid1"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp"
+			android:textSize="20dp"
+			android:text="热门企业"/>
+
+		<GridView
+			android:layout_below="@id/sousuo_tv2"
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="15dp"
+			android:layout_marginLeft="15dp"
+			android:id="@+id/grid2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:numColumns="4"
+			android:columnWidth="90dp"
+			android:verticalSpacing="0dp"
+			android:horizontalSpacing="0dp"
+			android:listSelector="@color/transparent"
+			><!--垂直边距--><!--水平边距-->
+		</GridView>
+	</RelativeLayout>
+
+</RelativeLayout>

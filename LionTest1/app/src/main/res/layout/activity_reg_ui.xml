@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/include_actionbar"
+        />
+
+    <LinearLayout
+        android:id="@+id/lay_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_textview_height"
+        android:layout_below="@id/common_actionbar"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        style="@style/edt_layout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号码"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/user_name_edt"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_textview_height"
+        android:layout_below="@id/lay_1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        style="@style/edt_layout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密        码"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/password_edt1"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_textview_height"
+        android:layout_below="@id/lay_2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        style="@style/edt_layout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/password_edt2"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reg_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认注册"
+        android:textColor="@color/log_btn_text_white"
+        android:layout_below="@id/lay_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/log_btn"/>
+</RelativeLayout>
