@@ -1,7 +1,7 @@
 # NewLion
 
 2016-4-21
-聚合宝Android版 界面优化之后 
+聚合宝（Android版 Android studio开发，后台服务器PHP） 界面优化之后 
 
 1.点击图片才能进入活动详情 
  
