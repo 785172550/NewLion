@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sean.liontest1" >
+
+    <!-- 打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 地图包、搜索包需要的基础权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 定位包、导航包需要的额外权限（注：基础权限也需要） -->
+
+
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 独立的service -->
+        <service android:name="com.amap.api.location.APSService" />
+        <!-- 用户 key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="4feb1ddd331d5a15a06b66d02e72a832" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.ui.AboutUs" >
+        </activity>
+        <activity android:name="com.example.ui.AddHuoDong" >
+        </activity>
+        <activity android:name="com.example.ui.ComInfo" >
+        </activity>
+        <activity android:name="com.example.ui.ComShow" >
+        </activity>
+        <activity android:name="com.example.ui.FanKui" >
+        </activity>
+        <activity android:name="com.example.ui.GaoDeMap" >
+        </activity>
+        <activity android:name="com.example.ui.GaoDeSearch" >
+        </activity>
+        <activity android:name="com.example.ui.GaoDeSearchComInfo" >
+        </activity>
+        <activity android:name="com.example.ui.ImageChoose" >
+        </activity>
+        <activity android:name="com.example.ui.LogUI" >
+        </activity>
+        <activity android:name="com.example.ui.MySetting" >
+        </activity>
+        <activity android:name="com.example.ui.PersonalUI" >
+        </activity>
+        <activity android:name="com.example.ui.RegSuccess" >
+        </activity>
+        <activity android:name="com.example.ui.Profile" >
+        </activity>
+        <activity android:name="com.example.ui.ProjectDetailsActivity" >
+        </activity>
+        <activity android:name="com.example.ui.RegUI" >
+        </activity>
+        <activity android:name="com.example.ui.SouSuoQiYe" >
+        </activity>
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="CCLions.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.model" />
+
+        <activity android:name="com.example.ui.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ui.SearchProjectActivity"
+            android:label="@string/title_activity_search_project"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>
